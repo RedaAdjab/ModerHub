@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+.venv/
+venv/
+
+# Django static/media artifacts
+backend/staticfiles/
+backend/media/
+
+# Environment files and local overrides
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Sensitive key/cert artifacts
+*.pem
+*.key
+*.p12
+*.crt
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
