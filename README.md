@@ -26,43 +26,6 @@ ModernHub is a complete generic website starter that includes common modern func
 - frontend: React application
 - docker-compose.yml: MySQL service for local development
 
-## Backend Setup
-
-1. Move to backend:
-   - `cd backend`
-2. Create and activate a virtual environment.
-3. Install dependencies:
-   - `pip install -r requirements.txt`
-4. Copy environment template:
-   - `copy .env.example .env`
-5. Optional: from project root, copy Docker environment template:
-   - `cd ..`
-   - `copy .env.example .env`
-6. Optional: start MySQL with Docker from project root:
-   - `docker compose up -d mysql`
-7. Run migrations:
-   - `python manage.py makemigrations`
-   - `python manage.py migrate`
-8. Create admin user (optional):
-   - `python manage.py createsuperuser`
-9. Start backend server:
-   - `python manage.py runserver`
-
-Backend default URL: `http://127.0.0.1:8000`
-
-## Frontend Setup
-
-1. Move to frontend:
-   - `cd frontend`
-2. Install dependencies:
-   - `npm install`
-3. Copy environment template:
-   - `copy .env.example .env`
-4. Start frontend dev server:
-   - `npm run dev`
-
-Frontend default URL: `http://localhost:5173`
-
 ## API Endpoints
 
 ### Authentication
