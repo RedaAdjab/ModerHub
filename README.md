@@ -50,4 +50,4 @@ ModernHub is a complete generic website starter that includes common modern func
 - `POST /api/newsletter/`
 - `GET /api/health/`
 
-> **Note:** This project was created and later abandonned in summer 2025.
+> **Note:** This project was created as a learning project in summer 2025.
